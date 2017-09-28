@@ -1,21 +1,30 @@
 {
   "name": "@abcnews/err",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description":
     "Light weight error reporting module which wraps ABC News built in logging.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "babel": {
+    "presets": ["es2015"]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/abcnews/err.git"
   },
-  "keywords": ["err"],
+  "keywords": ["error", "logging"],
   "author": "Simon Elvery",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/abcnews/err/issues"
   },
-  "homepage": "https://github.com/abcnews/err#readme"
+  "homepage": "https://github.com/abcnews/err#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }
