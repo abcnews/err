@@ -1,11 +1,12 @@
 {
   "name": "@abcnews/err",
-  "version": "1.0.1",
-  "description":
-    "Light weight error reporting module which wraps ABC News built in logging.",
+  "version": "1.0.2",
+  "description": "Light weight error reporting module which wraps ABC News built in logging.",
   "main": "lib/index.js",
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/abcnews/err.git"
   },
-  "keywords": ["error", "logging"],
+  "keywords": [
+    "error",
+    "logging"
+  ],
   "author": "Simon Elvery",
   "license": "ISC",
   "bugs": {
