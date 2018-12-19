@@ -1,6 +1,6 @@
 {
   "name": "@abcnews/err",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Light weight error reporting module which wraps ABC News built in logging.",
   "main": "lib/index.js",
   "babel": {
